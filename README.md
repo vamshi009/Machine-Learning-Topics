@@ -34,3 +34,8 @@ Given a function f,
 * Variance is simply the vraiance of f.
 * Variance[x] = E[x*x] - (E[x])^2
 * Bias and Varaince can be modelled as a part of Mean Square Error. So When you are minimising MSE you are also minimising the Bias and Varaince.
+
+## Cross Entropy Loss
+* Many authors use the term “cross-entropy” to identify speciﬁcally the negative log-likelihood of a Bernoulli or softmax distribution,but that is a misnomer.
+*  Any loss consisting of a negative log-likelihood is a cross-entropy between the empirical distribution deﬁned by the training set and the probability distribution deﬁned by model. 
+* For example, mean squared error is the cross-entropy between the empirical distribution and a Gaussian model.
