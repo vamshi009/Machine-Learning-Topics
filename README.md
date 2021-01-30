@@ -32,3 +32,5 @@ ML topics read and understood from various sources (Books, research papers, arti
 Given a function f,
 * Bias =  Expectation[f] - f
 * Variance is simply the vraiance of f.
+* Variance[x] = E[x*x] - (E[x])^2
+* Bias and Varaince can be modelled as a part of Mean Square Error. So When you are minimising MSE you are also minimising the Bias and Varaince.
