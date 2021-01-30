@@ -26,3 +26,5 @@ ML topics read and understood from various sources (Books, research papers, arti
 
 ## Hyper Parameters
 * The parameters that are not optimised generally  as part of the optimization function. You can learn another algorithm to find the optimal Hyper Parameters or use the Validation data to determine the Hyper Parameters. (20% of Training Data is Used for Validation generally)
+
+## Bias - Variance
