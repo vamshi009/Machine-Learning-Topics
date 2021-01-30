@@ -28,3 +28,7 @@ ML topics read and understood from various sources (Books, research papers, arti
 * The parameters that are not optimised generally  as part of the optimization function. You can learn another algorithm to find the optimal Hyper Parameters or use the Validation data to determine the Hyper Parameters. (20% of Training Data is Used for Validation generally)
 
 ## Bias - Variance
+* We to approximate the underlying function using the training data we have. But the training data does not represent the entire set of training samples, due to this error perisists in the approximation function. The following are the characteristics of the approximation function which help us in modelling the error understanding the nature of functions.
+Given a function f,
+* Bias =  Expectation[f] - f
+* Variance is simply the vraiance of f.
