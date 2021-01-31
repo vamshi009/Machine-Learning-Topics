@@ -39,3 +39,5 @@ Given a function f,
 * Many authors use the term “cross-entropy” to identify speciﬁcally the negative log-likelihood of a Bernoulli or softmax distribution,but that is a misnomer.
 *  Any loss consisting of a negative log-likelihood is a cross-entropy between the empirical distribution deﬁned by the training set and the probability distribution deﬁned by model. 
 * For example, mean squared error is the cross-entropy between the empirical distribution and a Gaussian model.
+
+{\displaystyle g(x)={\frac {1}{\sigma {\sqrt {2\pi }}}}\exp {\left(-{\frac {1}{2}}{\frac {(x-\mu )^{2}}{\sigma ^{2}}}\right)}.}
