@@ -40,4 +40,9 @@ Given a function f,
 *  Any loss consisting of a negative log-likelihood is a cross-entropy between the empirical distribution deﬁned by the training set and the probability distribution deﬁned by model. 
 * For example, mean squared error is the cross-entropy between the empirical distribution and a Gaussian model.
 
-{\displaystyle g(x)={\frac {1}{\sigma {\sqrt {2\pi }}}}\exp {\left(-{\frac {1}{2}}{\frac {(x-\mu )^{2}}{\sigma ^{2}}}\right)}.}
+## Properties of Maximum Likelihood
+* The true distribution pdata must lie within the model family pmodel(·;θ). Otherwise, no estimator can recover pdata
+* The true distribution pdata must correspond to exactly one value of θ. Otherwise, maximum likelihood can recover the correct pdata but will not be able to determine which value of θ was used by the data-generating process.
+* That parametric mean squared error decreases as m increases, and for m large, the Cramér-Rao lower bound (Rao, 1945; Cramér, 1946) shows that no consistent estimator has a lower MSE than the maximum likelihood estimator.
+* For these reasons (consistency and eﬃciency), maximum likelihood is often considered the preferred estimator to use for machine learning.
+* When the numberof examples is small enough to yield overﬁtting behavior, regularization strategies such as weight decay may be used to obtain a biased version of maximum likelihoodthat has less variance when training data is limited.
