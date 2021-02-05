@@ -46,3 +46,15 @@ Given a function f,
 * That parametric mean squared error decreases as m increases, and for m large, the Cramér-Rao lower bound (Rao, 1945; Cramér, 1946) shows that no consistent estimator has a lower MSE than the maximum likelihood estimator.
 * For these reasons (consistency and eﬃciency), maximum likelihood is often considered the preferred estimator to use for machine learning.
 * When the numberof examples is small enough to yield overﬁtting behavior, regularization strategies such as weight decay may be used to obtain a biased version of maximum likelihoodthat has less variance when training data is limited.
+
+## L1 Vs L2 Regularisation
+* L1 is also known as Lasso = sum of abolute of weights
+* L2 is also known as Ridge = sum of square of weights
+
+* L1 is used for Feature Selection as it tends to make weights to zero.
+* Since L1 has a modulus of weights it is not differentiable in certain cases and hence other methods should be used for optimization.
+* L2 is differentiable
+
+https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
+
+* In case of L2, it doesnt make weights to Zero because, the zero error should be on the axis line for it to intersect with the locus of the L2, which means one of the weights is already zero. This in not likely and if the weights are already zero you do not need regularisation. In case of L1, this condition does not hold and the contour lines of error intersect on the axis.
