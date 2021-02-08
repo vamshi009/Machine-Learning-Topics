@@ -61,6 +61,9 @@ https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 
 ## Decision Trees
 
+* Creates Tree by Node Creation based upon the Algos like Information Gain and Gini Impurity.
+* The Idea is creation of node should decrease the entropy.
+
 ### Random Forests
 * Decision Based on Max Votes from different decision Trees.
 * Bagging is done to ensure decrease co-relation among each DT.
