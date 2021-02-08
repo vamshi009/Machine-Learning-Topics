@@ -63,9 +63,9 @@ https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 
 ### Random Forests
 * Decision Based on Max Votes from different decision Trees.
-* Bagging is done o ensure decrease co-relation among each DT.
+* Bagging is done to ensure decrease co-relation among each DT.
 * Bagging randomly samples data with replacement.
 
 ### Bagging Vs Boosting
-* Bagging decreaase variance
+* Bagging decreases variance
 * Boosting decreases Bias (Xtreme Gradient Boosting)
