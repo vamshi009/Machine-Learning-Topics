@@ -58,3 +58,14 @@ Given a function f,
 https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 
 * In case of L2, it doesnt make weights to Zero because, the zero error should be on the axis line for it to intersect with the locus of the L2, which means one of the weights is already zero. This in not likely and if the weights are already zero you do not need regularisation. In case of L1, this condition does not hold and the contour lines of error intersect on the axis.
+
+## Decision Trees
+
+### Random Forests
+* Decision Based on Max Votes from different decision Trees.
+* Bagging is done o ensure decrease co-relation among each DT.
+* Bagging randomly samples data with replacement.
+
+### Bagging Vs Boosting
+* Bagging decreaase variance
+* Boosting decreases Bias (Xtreme Gradient Boosting)
