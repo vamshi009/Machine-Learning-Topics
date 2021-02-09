@@ -74,3 +74,18 @@ https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 ### Bagging Vs Boosting
 * Bagging decreases variance
 * Boosting decreases Bias (Xtreme Gradient Boosting)
+
+## SVM (Support Vector Machines )
+* Source: Andrew NG
+* In SVM we try to minimize the hinge loss function
+#### Hinge loss: max(0, 1- y*(wT.x - b ))
+* We have an additional parameter to be minimized i.e |w| = Sigma Theta^2 (sum of squares of weights)
+* The above is because in SVM distance between the margin is 2/|w|. In order to maximize this we minimize |W|
+#### Support Vectors
+* Support Vectors play a major role in deciding the decision boundary
+* For the Vectors are close to the decision boundary, the component of vecctor X, on the weight vector W, is small. In order to make it greater than 1, |W| should be greater. Since wT.X = |b|*|W| (W is not a UNIT weight vector)
+* But, in the optimization function we specify to minimize the value of |w|. Hence the SVM chooses a Margin away from these Support Vectors.
+#### Kernels
+* Kernels help to acheive complex non -linear boundaries easily.
+* Instead of having huge no of parameters like in logistic regression, the same  can be acheived through kernels.
+* Few Kernels are, Gaussian Kernels, Polynomial Kernels (WT.X + constant)^degree, Linear Kernels(No Kernel)
