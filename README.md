@@ -63,6 +63,8 @@ https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 
 * Creates Tree by Node Creation based upon the Algos like Information Gain and Gini Impurity.
 * The Idea is creation of node should decrease the entropy.
+* Gini(Impurity/Entropy at a node): 1 - (probability of Class of A )^2 - (probability of Class of B )^2
+* Information Gain: Sigma P*log(P)
 
 ### Random Forests
 * Decision Based on Max Votes from different decision Trees.
