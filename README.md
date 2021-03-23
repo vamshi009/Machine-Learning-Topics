@@ -89,3 +89,8 @@ https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 * Kernels help to acheive complex non -linear boundaries easily.
 * Instead of having huge no of parameters like in logistic regression, the same  can be acheived through kernels.
 * Few Kernels are, Gaussian Kernels, Polynomial Kernels (WT.X + constant)^degree, Linear Kernels(No Kernel)
+
+## Optimisation functions
+https://ruder.io/optimizing-gradient-descent/
+#### SGD, Momentum, Nestrov, ADAM etc.
+
