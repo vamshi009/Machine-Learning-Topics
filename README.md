@@ -1,4 +1,4 @@
-# ML
+# Machine Learning
 ML topics read and understood from various sources (Books, research papers, articles) and written by me.  
 
 ## No Free lunch Theorem:
