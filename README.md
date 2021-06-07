@@ -80,7 +80,8 @@ https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 * In SVM we try to minimize the hinge loss function
 #### Hinge loss: max(0, 1- y*(wT.x - b ))
 * We have an additional parameter to be minimized i.e |w| = Sigma Theta^2 (sum of squares of weights)
-* The above is because in SVM distance between the margin is 2/|w|. In order to maximize this we minimize |W|
+* The above is because in SVM distance between the margin is 2/|w|. In order to maximize thi
+* s we minimize |W|
 #### Support Vectors
 * Support Vectors play a major role in deciding the decision boundary
 * For the Vectors are close to the decision boundary, the component of vecctor X, on the weight vector W, is small. In order to make it greater than 1, |W| should be greater. Since wT.X = |b|*|W| (W is not a UNIT weight vector)
@@ -93,4 +94,11 @@ https://www.youtube.com/watch?v=QNxNCgtWSaY&ab_channel=StatQuestwithJoshStarmer
 ## Optimisation functions
 https://ruder.io/optimizing-gradient-descent/
 #### SGD, Momentum, Nestrov, ADAM etc.
+
+## Fine Tuning Vs Feature Extarction
+https://i.stack.imgur.com/BiClc.png
+
+## FewShot Learning
+https://research.aimultiple.com/few-shot-learning/
+https://www.borealisai.com/en/blog/tutorial-2-few-shot-learning-and-meta-learning-i/
 
