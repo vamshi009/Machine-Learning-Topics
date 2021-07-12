@@ -104,6 +104,8 @@ https://www.borealisai.com/en/blog/tutorial-2-few-shot-learning-and-meta-learnin
 
 ## Activation Functions
 
+Link: https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b
+
 Many Times in Using Activation functions and backprop we take granted that backprop happens automatically.
 But this isnt the case.
 ### Sigmoid
