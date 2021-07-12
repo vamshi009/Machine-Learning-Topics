@@ -102,3 +102,16 @@ https://i.stack.imgur.com/BiClc.png
 https://research.aimultiple.com/few-shot-learning/
 https://www.borealisai.com/en/blog/tutorial-2-few-shot-learning-and-meta-learning-i/
 
+## Activation Functions
+
+Many Times in Using Activation functions and backprop we take granted that backprop happens automatically.
+But this isnt the case.
+### Sigmoid
+* In case of using a sigmoid activation function. If the weight matrix is inialized with large values (negative and postive extrememus), the gradient will be zero. Hence the network stops learning. 
+* Also, the gradient becomes exactly half of the output, so as you backprop the gradients become half.
+### RELU
+* In case of RELU, if the output is less than or equal to zero, then the gradient is zero, no learning happening.
+
+### RNNs 
+* In RNNs while backprop a single matrix gets multiplied many times, hence the gradients either get explode or diminish based upon its value. So either Use LSTM or use gradient clipping for exploding gradients.
+
