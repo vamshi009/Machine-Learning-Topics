@@ -129,3 +129,9 @@ P.S: Refer to the images attached.
 <img width="662" alt="Screenshot 2022-04-26 at 11 21 07 AM" src="https://user-images.githubusercontent.com/9864247/165232400-e50d69c5-a362-4f64-aeed-cf439e99476c.png">
 
 <img width="647" alt="Screenshot 2022-04-26 at 11 21 19 AM" src="https://user-images.githubusercontent.com/9864247/165232612-d099c921-c4e5-4843-813d-3c4c9c42da66.png">
+
+## Normalization:
+Batch normalization: Normalize each input feature across a mini batch of samples
+Layer normalization: Normalize each input feature across all the features
+weight normalization: 
+
