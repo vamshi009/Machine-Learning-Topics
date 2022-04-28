@@ -131,7 +131,13 @@ P.S: Refer to the images attached.
 <img width="647" alt="Screenshot 2022-04-26 at 11 21 19 AM" src="https://user-images.githubusercontent.com/9864247/165232612-d099c921-c4e5-4843-813d-3c4c9c42da66.png">
 
 ## Normalization:
-### Batch normalization: Normalize each input feature across a mini batch of samples
-### Layer normalization: Normalize each input feature across all the features
+### Batch normalization: 
+Normalize each input feature across a mini batch of samples
+### Layer normalization:
+Normalize each input feature across all the features
 ### weight normalization: 
+Decouple the weight component from the vector and multiple it by a Scalar
 
+## Sequence2Sequence Networks with Attention
+### Decoder
+<img width="487" alt="Screenshot 2022-04-28 at 3 36 29 PM" src="https://user-images.githubusercontent.com/9864247/165729958-4e153951-fd07-40b5-ba67-54549a0a93cc.png">
