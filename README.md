@@ -141,3 +141,16 @@ Decouple the weight component from the vector and multiple it by a Scalar
 ## Sequence2Sequence Networks with Attention
 ### Decoder
 <img width="487" alt="Screenshot 2022-04-28 at 3 36 29 PM" src="https://user-images.githubusercontent.com/9864247/165729958-4e153951-fd07-40b5-ba67-54549a0a93cc.png">
+
+
+## Linear Regression
+1 independent variable, 1 dependent varaible -> simple linear regression
+multiple independent variable, 1 dependent varaible -> multiple linear regression
+multiple independent variable, 1 dependent varaible -> multivariate linear regression
+
+Most commonly, the conditional mean of the response given the values of the explanatory variables (or predictors or independent varaiables) is assumed to be an affine function of those values.
+
+Affine Transformation: 
+
+Affine function: 
+
