@@ -151,6 +151,7 @@ multiple independent variable, 1 dependent varaible -> multivariate linear regre
 Most commonly, the conditional mean of the response given the values of the explanatory variables (or predictors or independent varaiables) is assumed to be an affine function of those values.
 
 Affine Transformation: 
+<img src="https://github.com/vamshi009/Machine-Learning-Topics/blob/main/Screenshot%202023-05-20%20at%2012.10.42%20AM.png">
 
 Affine function: 
-
+<img src="https://github.com/vamshi009/Machine-Learning-Topics/blob/main/Screenshot%202023-05-20%20at%2012.11.57%20AM.png">
