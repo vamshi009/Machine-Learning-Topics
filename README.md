@@ -144,9 +144,9 @@ Decouple the weight component from the vector and multiple it by a Scalar
 
 
 ## Linear Regression
-1 independent variable, 1 dependent varaible -> simple linear regression
-multiple independent variable, 1 dependent varaible -> multiple linear regression
-multiple independent variable, 1 dependent varaible -> multivariate linear regression
+1 independent variable, 1 dependent varaible -> simple linear regression <br>
+multiple independent variable, 1 dependent varaible -> multiple linear regression <br>
+multiple independent variable, 1 dependent varaible -> multivariate linear regression <br>
 
 Most commonly, the conditional mean of the response given the values of the explanatory variables (or predictors or independent varaiables) is assumed to be an affine function of those values.
 
