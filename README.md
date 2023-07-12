@@ -155,3 +155,7 @@ Affine Transformation:
 
 Affine function: 
 <img src="https://github.com/vamshi009/Machine-Learning-Topics/blob/main/Screenshot%202023-05-20%20at%2012.11.57%20AM.png">
+
+
+#Matrix Ranking and Low rank Approximation
+https://web.stanford.edu/class/cs168/l/l9.pdf
