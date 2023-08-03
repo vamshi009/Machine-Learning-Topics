@@ -162,4 +162,8 @@ https://web.stanford.edu/class/cs168/l/l9.pdf
 
 ## Why do we need Logistic Regression for Classification
 https://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch12.pdf
+<img src="LogReg1.png">
+<img src="LogReg2.png">
+
+
 
